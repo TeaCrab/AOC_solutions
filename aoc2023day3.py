@@ -45,4 +45,6 @@ for i, line in enumerate(raw):
     # I feared that somehow this method would give duplicated results... However, given how the puzzle is defined and the method I'm using here, it doesn't seem to be possible of grabbing the same gear set twice over the iterations.
     # Whatevs...
 
+# Could have pre-processed the whole file for locations of symbols in one loop and simply reference them in the loops.  I've opted to do it 3 times in each loop... What's done is done.
+
 code.interact(local=locals())
